@@ -1,0 +1,160 @@
+.form-group{
+  position: fixed;
+  margin-top: 2%;
+  left: 20%;
+  right: 20%;
+  height: 90%;
+  margin-bottom: 3%;
+  font-size: x-large;
+  font-weight: bolder;
+  border: solid black;
+ 
+  
+
+}
+.loader {
+  border: 16px solid #f3f3f3;
+ 
+  border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid red;
+  border-left: 16px solid black;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+
+
+::placeholder {
+  color: red;
+  opacity: 1; /* Firefox */
+}
+
+#foot{
+  margin-top: 53%;
+}
+
+
+.card {
+  height: 100%;
+  
+  
+
+
+}
+
+input{
+  height: 38px;
+  background-color: rgb(34, 27, 27);
+  color: #fff;
+  border-radius: 10px;
+}
+.btn-warning.btn-warning:hover{
+  color: #fff;
+  background-color:blue;
+
+}
+#textInput{
+  font-size: small;
+  
+}
+
+.duePass{
+  border: thick solid yellow;
+  
+}
+#pera{
+  font-size: small;
+}
+
+.checkbox {
+  border: solid black;
+  border-radius: 10px;
+
+  text-decoration: line-through;
+}
+
+
+
+
+#ulu{
+  background: #888;
+  color: rgb(34, 27, 27);
+  margin-right: 7%;
+  border-radius: 30px;
+}
+
+
+
+#ulu.checked::before{
+  border: solid black;
+  margin-bottom: 1%;
+  background-color: rgb(197, 0, 0);
+  color: black;
+  border-radius: 20px;
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+ 
+ 
+  
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#ulu:nth-child(odd) {
+  background: #f9f;
+}
+
+
+#ulu:hover {
+  background: rgb(243, 247, 11);
+}
+#formId{
+  border : thin solid black;
+  
+
+}
+
+
+
+
+
+
+
+/* */
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
